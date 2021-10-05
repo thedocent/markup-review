@@ -1,0 +1,757 @@
+@media screen and (min-width: 711px) {
+  .Mobile {
+    display: none !important;
+  }
+  button {
+    padding: 13px 37px;
+    font-size: 20px;
+    height: 56px;
+  }
+  header > .Pc a {
+    padding: 20px;
+  }
+  section {
+    margin: 80px auto 200px auto;
+  }
+
+  #Hero .logo {
+    width: 272px;
+  }
+  .login {
+    width: 94px;
+    height: 40px;
+    font-size: 16px;
+    padding: 12px;
+    margin-right: 30px;
+  }
+  header ul {
+    margin-left: 30px;
+  }
+  body {
+    background-image: url(img/BgTop.svg), url(img/FadeBg.svg);
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    background-position: top, bottom;
+    width: 100%;
+  }
+  /*header-end*/
+
+  h1 {
+    font-size: 40px;
+    margin: 16px;
+  }
+  .box {
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    padding: 64px;
+    border-radius: 32px;
+    width: 472px;
+    margin-top: 32px;
+  }
+  .box ul li {
+    font-size: 20px;
+    margin-top: 16px;
+  }
+  .box ul li p {
+    margin: auto 16px;
+  }
+  .box > img {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .box ul {
+    width: 100%;
+  }
+  /*Top2*/
+  #Top2 > div > div div {
+    font-size: 20px;
+  }
+  #Top2 > div > div {
+    margin: 24px 0;
+  }
+  #Top2 li {
+    width: 200px;
+  }
+  h3 {
+    font-size: 28px;
+    margin: 28px 0 16px 0;
+  }
+  #Top2 > div {
+    margin-bottom: 52px;
+  }
+
+  #Top2 li div {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display: grid;
+    place-content: center;
+  }
+  #Top2 ul {
+    display: flex;
+    align-items: center;
+  }
+  #Top2 ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #Top2 ul li .content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #CenterBg {
+    height: 300px;
+    overflow: visible;
+    display: grid;
+    place-content: center;
+  }
+  #Top2 {
+    margin-bottom: 100px;
+  }
+  /*Middle*/
+
+  #Middle .Mockup1 {
+    width: 640px;
+  }
+  #Middle .Mockup2 {
+    width: 1140px;
+  }
+  #Middle .Mockup3 {
+    width: 900px;
+  }
+  .MidContent {
+    margin: auto 0;
+  }
+  .MidContent h2 {
+    font-size: 36px;
+    display: flex;
+    margin: 0 0 8px 0;
+  }
+  .MidContent p {
+    color: #84868d;
+    font-size: 20px;
+  }
+  .mockup {
+    width: 600px;
+    height: 600px;
+    overflow: visible;
+    display: grid;
+    place-content: center;
+  }
+  #Middle2 {
+    flex-flow: row-reverse wrap;
+  }
+  #Middle2 .MidContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .MidContent > img {
+    padding: 16px 0;
+  }
+  .MidContent .p {
+    margin-top: 32px;
+  }
+  #Middle2 .MidContent {
+    margin-right: 0px;
+  }
+  #Middle3 .mockup {
+    margin-bottom: 40px;
+  }
+  #Middle1 .mockup {
+    margin-right: 160px;
+  }
+  #Middle2 .mockup {
+    padding-left: 80px;
+  }
+  #Middle > div {
+    margin: 120px;
+  }
+  /*Bottom*/
+  #Event > div > div {
+    width: 280px;
+    height: 48px;
+    border-radius: 24px;
+  }
+  #Event > div > div > img {
+    margin-right: 12px;
+  }
+  #Event > div > div > p {
+    font-size: 24px;
+    margin-top: 2px;
+  }
+  #Event h1 {
+    font-size: 48px;
+    padding-top: 10px;
+  }
+  #Event > p {
+    font-size: 20px;
+  }
+  #Event > img {
+    margin: 64px 0;
+    max-width: 820px;
+    width: 100%;
+  }
+  #App .p {
+    font-size: 19px;
+  }
+  .AppImg {
+    margin-bottom: 400px;
+  }
+  .AppImg img {
+    width: 100%;
+    max-width: 940px;
+  }
+  #App > .content {
+    margin: 12px 0 16px 0;
+  }
+  #App {
+    margin-bottom: -100px;
+  }
+  /*Footer*/
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  footer > div {
+    max-width: 1140px;
+    width: 100%;
+    margin: 64px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  footer > div > div {
+    margin-bottom: 24px;
+  }
+  .lineup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 0;
+  }
+  .lineup ul {
+    display: flex;
+  }
+  .lineup li {
+    padding-right: 28px;
+  }
+  .lineup2 li {
+    padding-right: 0;
+    padding-left: 64px;
+  }
+  .b {
+    font-weight: 800;
+    font-size: 14px;
+  }
+  footer p {
+    line-height: 1.5em;
+    color: #bbbcc2;
+  }
+}
+@media screen and (max-width: 710px) {
+  .Pc {
+    display: none !important;
+  }
+  body {
+    background-image: url(./img/BgMobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    height: 60px;
+  }
+  header ul {
+    margin-left: 16px;
+  }
+  .dashboard {
+    width: 90%;
+  }
+  .login {
+    font-size: 14px;
+    margin-right: 16px;
+    width: 60px;
+    height: 28px;
+    padding: 12px auto;
+    border-radius: 4px;
+  }
+  section {
+    margin: 40px auto;
+    margin-bottom: 200px;
+  }
+  #Hero .logo {
+    width: 40%;
+  }
+  button {
+    width: 250px;
+    height: 48px;
+    font-size: 18px;
+  }
+  #Hero div {
+    font-size: 16px;
+    letter-spacing: 10px;
+    margin-top: 16px;
+  }
+  /*hero-end*/
+  h1 {
+    font-size: 28px;
+    margin: 10px;
+  }
+  .box {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px 24px;
+    border-radius: 16px;
+    margin-top: 16px;
+  }
+  .box > img {
+    width: 60px;
+    padding: 10px;
+  }
+  .box ul li img {
+    width: 36px;
+  }
+  .box ul li {
+    height: 36px;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+    margin-top: 8px;
+  }
+  .box ul li p {
+    margin: auto 8px;
+  }
+  /*Top2*/
+  #Top2 {
+    margin-bottom: -50px;
+  }
+  #Top2 > div {
+    margin-bottom: 36px;
+  }
+  #Top2 .div1 img {
+    width: 38px;
+  }
+  #Top2 .div2 img {
+    width: 33px;
+  }
+  #Top2 .div3 img {
+    width: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  #Top2 p {
+    font-size: 14px;
+  }
+  #Top2 h3 {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  #Top2 li {
+    margin-bottom: 24px;
+  }
+  #Top2 li div {
+    width: 72px;
+    height: 72px;
+    margin-right: 16px;
+    border-radius: 36px;
+    display: grid;
+    place-content: center;
+    flex-shrink: 0;
+  }
+  #Top2 ul {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  #Top2 ul li {
+    display: flex;
+    flex-direction: row;
+  }
+  #Top2 ul li .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  /*Middle*/
+  #Middle {
+    width: 100%;
+  }
+  .mockup {
+    max-width: 100%;
+    height: auto;
+  }
+  #Middle .mockup {
+    display: flex;
+    justify-content: center;
+  }
+  #Middle3 .mockup {
+    justify-content: right;
+  }
+  #Middle .Mockup1 {
+    width: 80%;
+    margin-bottom: -70px;
+  }
+  #Middle .Mockup2 {
+    width: 100%;
+    margin-bottom: -100px;
+    margin-top: 100px;
+  }
+  #Middle .Mockup3 {
+    width: 100%;
+    margin-bottom: -130px;
+    margin-top: 40px;
+  }
+  .MidContent p {
+    color: #84868d;
+    font-size: 12px;
+  }
+  #Middle h2 {
+    font-size: 28px;
+    margin: 0 0 8px 0;
+    display: flex;
+  }
+  #Middle p {
+    font-size: 13px;
+    line-height: 1.5em;
+  }
+  .MidContent img {
+    padding-bottom: 16px;
+  }
+  #Middle .p {
+    margin-top: 24px;
+  }
+  .MidContent {
+    padding: 32px;
+  }
+  #Middle2 {
+    display: flex;
+    justify-content: right;
+  }
+  #Middle2 .MidContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  }
+  #Middle2 .MidContent img {
+    background-color: white;
+    box-shadow: 5px 5px 50px 40px white;
+  }
+  #Middle {
+    margin-bottom: 0px;
+  }
+  /*Bottom*/
+  #Bottom {
+    background-size: contain;
+    padding-top: 160px;
+  }
+  #Event > div > div {
+    width: 160px;
+    height: 32px;
+    border-radius: 16px;
+  }
+  #Event > div > div > img {
+    width: 64px;
+    padding-right: 6px;
+  }
+  #Event > div > div > p {
+    font-size: 14px;
+    margin-top: 1px;
+  }
+  #Event {
+    width: 100%;
+  }
+  #Event > img {
+    min-width: 300px;
+    width: 100%;
+    margin: 16px 0;
+  }
+  #App img {
+    width: 100%;
+  }
+
+  #App .p {
+    font-size: 13px;
+  }
+  #App .store img {
+    width: 40%;
+    margin: 4px;
+  }
+  #App > .content {
+    margin: 6px 0 8px 0;
+  }
+  #BottomBg {
+    width: 100%;
+  }
+  #BottomBg img {
+    object-fit: cover;
+  }
+  #App {
+    margin-bottom: -30%;
+  }
+  /*Footer*/
+  footer {
+    position: absolute;
+  }
+  footer > div {
+    padding: 36px;
+  }
+  footer div {
+    margin-bottom: 16px;
+  }
+  footer p {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+  .lineup ul {
+    display: flex;
+    padding-top: 20px;
+  }
+  .lineup li {
+    padding-right: 28px;
+  }
+  .lineup2 a {
+    font-size: 13px;
+  }
+  .b {
+    font-weight: 800;
+    margin-right: 20px;
+  }
+  /* body {
+    background-image: url(./img/BgMobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+  header {
+    width: 100%;
+    height: 60px;
+  }
+  header > div {
+    margin: 0px;
+  }
+  header > ul {
+    margin: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  header .login {
+    padding: 5px 14px;
+    font-size: 12px;
+  }
+  .hide {
+    display: none;
+  }
+  .Mobilemenu {
+    display: flex;
+  }
+  .Mobilemenu img {
+    width: 24px;
+  }
+  #Hero {
+    margin: 20px;
+    margin-top: 60px;
+  }
+  #Hero .dashboard {
+    width: 100%;
+  }
+  #Hero div {
+    font-size: 15px;
+  }
+  #Hero > div {
+    letter-spacing: 8px;
+    margin-top: 8px;
+  }
+  #Hero button {
+    height: 48px;
+  }
+  button {
+    font-size: 18px;
+    padding: 10px 35px;
+  }
+  .logo {
+    width: 45% !important;
+  }
+  h1 {
+    font-size: 28px;
+  }
+
+  h1:last-child {
+    margin-bottom: 16px;
+  }
+  #Top > div {
+    width: 100%;
+    border-radius: 16px;
+  }
+  #Top {
+    padding: 20px;
+  }
+  .box {
+    padding: 28px;
+  }
+  .box > img {
+    width: 60px !important;
+  }
+  #Top li {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  .box > ul > li > img {
+    width: 36px;
+  }
+  #Top > div > img {
+    width: 80px;
+  }
+  #Top ul {
+    margin: 0;
+  }
+  .box p {
+    font-size: 13px;
+  }
+  .div1,
+  .div2,
+  .div3 {
+    width: 72px !important;
+    height: 72px !important;
+  }
+  .div1 img,
+  .div2 img,
+  .div3 img {
+    width: 32px;
+  }
+  .h31 {
+    color: #8244ff;
+  }
+  .h32 {
+    color: #bc73f9;
+  }
+  .h33 {
+    color: #fd8fdf;
+  }
+  #Top2 li .div1 {
+    box-shadow: 0px 8px 15px rgba(128, 68, 255, 0.25);
+  }
+
+  #Top2 li .div2 {
+    box-shadow: 0px 8px 15px rgba(160, 100, 249, 0.25);
+  }
+
+  #Top2 li .div3 {
+    box-shadow: 0px 8px 15px rgba(253, 143, 223, 0.25);
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  #Top2 h3 {
+    margin: 0;
+    margin-bottom: 4px;
+  }
+  .content p {
+    font-size: 12px;
+  }
+  #Top2 ul {
+    flex-direction: column;
+  }
+  #Top2 ul li {
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+  }
+  #Top2 ul li .content,
+  #Top2 ul li .content3 {
+    align-items: flex-start;
+  }
+  #Top2 > div > div {
+    justify-content: center;
+    font-size: 13px;
+  }
+  #Top2 > ul > li > div:first-child {
+    margin: 20px;
+  }
+  #Top2 ul li .content3 > p {
+    font-size: 12px;
+  }
+  .Mobilebg {
+    position: absolute;
+    width: 100%;
+    display: inline;
+  }
+  #Middle {
+    width: 100%;
+  }
+  #Middle .mockup img {
+    width: 280px;
+  }
+  .Middle2 {
+    overflow: visible;
+  }
+  .Mockup2 {
+    width: 490px !important;
+  }
+  #Middle h2 {
+    font-size: 28px;
+  }
+  #Middle p {
+    font-size: 12px;
+  }
+  #Middle > div {
+    margin: 0;
+  }
+  .mockup {
+    width: 100%;
+  }
+  #Middle > div {
+    flex-direction: column;
+  }
+  .Middle2 {
+    flex-direction: column-reverse !important;
+  }
+  .Middle2 .MidContent {
+    margin-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .Middle2 .p p {
+    text-align: right;
+  }
+
+  #App {
+    width: 100%;
+  }
+  #App img {
+    width: 100%;
+  }
+  .Middle2 {
+    width: 100%;
+  }
+  .Middle2 .mockup {
+    width: 100%;
+  }
+  footer > div {
+    width: 100%;
+  }
+  #Event > img {
+    width: 100%;
+  } */
+}
+@media screen and (min-width: 700px) and (max-width: 1263px) {
+  #Middle2 .MidContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #Middle2 p {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  #Middle1 .mockup {
+    margin-right: 0;
+  }
+}
